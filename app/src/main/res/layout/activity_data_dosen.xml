@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DataDosen"
+    android:orientation="vertical"
+    android:layout_margin="30dp"
+    android:layout_gravity="center_vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Data Dosen"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="15dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/nameDos_edittext"
+        android:hint="Name"
+        android:background="@drawable/background_edittext"
+        android:padding="8dp"
+        android:layout_marginBottom="20dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/addressDos_edittext"
+        android:hint="Address"
+        android:background="@drawable/background_edittext"
+        android:padding="8dp"
+        android:layout_marginBottom="15dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="INSERT"
+        android:id="@+id/btninsertDos"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="READ LATEST DATA"
+        android:id="@+id/read_btnDos"
+        android:layout_marginBottom="30dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/update_nameDos_edittext"
+        android:hint="Edit Name"
+        android:background="@drawable/background_edittext"
+        android:padding="8dp"
+        android:layout_marginBottom="15dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/update_addressDos_edittext"
+        android:hint="Edit Address"
+        android:background="@drawable/background_edittext"
+        android:padding="8dp"
+        android:layout_marginBottom="15dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="UPDATE DATA"
+        android:id="@+id/updateDos_btn"/>
+
+</LinearLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home"
+    android:orientation="vertical"
+    android:layout_gravity="center">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/img_8"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Selamat Datang!"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Silahkan pilih data yang akan digunakan!"
+        android:textSize="18sp"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="35dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dosen"
+        android:textSize="17sp"
+        android:id="@+id/btn_dos"
+        android:layout_marginHorizontal="110dp"
+        android:layout_marginBottom="10dp"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mahasiswa"
+        android:textSize="17sp"
+        android:id="@+id/btn_mhs"
+        android:layout_marginHorizontal="110dp"
+        android:textAllCaps="false"/>
+
+</LinearLayout>
